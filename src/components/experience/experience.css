@@ -1,0 +1,128 @@
+.experience_conteiner {
+    min-height: 80vh;
+    padding: 40px 0px;
+    background-color: rgb(15, 13, 29, 1);
+}
+
+.e_heading {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 30px;
+}
+
+.e_s_heading {
+    color: rgb(114, 111, 132);
+    font-size: 12px;
+    margin-top: -10px;
+}
+
+.e_box {
+    width: 300px;
+    height: 180px;
+    padding: 20px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    background-color: rgba(0, 0, 0, 1);
+}
+
+.e_box_title {
+    color: #fff;
+    font-weight: 600;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+
+.e_box_detail {
+    font-size: 10px;
+    font-weight: 600;
+    color: rgba(143, 141, 160, 1);
+}
+
+.e_btn {
+    width: 70px;
+    height: 60px;
+    border: none;
+    outline: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    clip-path: polygon(23% 0, 77% 0, 100% 100%, 0% 100%);
+    transform: rotate(180deg);
+    background-color: rgba(60, 114, 252, 1);
+}
+
+.e_btn2 {
+    width: 30px;
+    border: none;
+    outline: none;
+    height: 30px;
+    clip-path: polygon(23% 0, 77% 0, 100% 100%, 0% 100%);
+    transform: rotate(0deg);
+    background-color: rgb(0, 0, 0);
+}
+
+.e_btn:hover .e_btn2{
+    transform: scale(0.8);
+    transition: all linear 0.2s;
+}
+
+.e_heat {
+    position: relative;
+    color: #FFFF;
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: 600;
+}
+
+.e_heat::before {
+    content: "";
+    position: absolute;
+    width: 30%;
+    height: 1px;
+    left: 15%;
+    top: 8px;
+    background-color: rgba(50, 48, 61, 0.71);
+}
+
+.e_heat::after {
+    content: "";
+    position: absolute;
+    width: 30%;
+    height: 1px;
+    right: 15%;
+    top: 8px;
+    background-color: rgba(50, 48, 61, 0.71);
+}
+
+.e_arrow_div {
+    width: 88%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.e_arrow_div button {
+    border: none;
+    outline: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(26, 32, 65);
+    color: rgb(60, 114, 252);
+    font-size: 12px;
+    padding: 10px 10px;
+}
+.e_arrow_div button:hover, .e_box:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 7px rgb(60, 114, 252);
+}
+
+@media screen and (max-width:768px) {
+    .e_arrow_div {
+        width: 90%;
+    }
+}

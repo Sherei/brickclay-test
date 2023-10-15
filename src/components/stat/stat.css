@@ -1,0 +1,20 @@
+.stats_box{
+    width: 250px;
+    min-height: 150px;
+    padding: 10px 0px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    border-right: 1px solid rgba(112, 112, 112, 0.7);
+}
+.stats_box:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 7px rgb(60, 114, 252);
+}
+.stat_img{
+    background-color: #000;
+    padding: 10px;
+}
