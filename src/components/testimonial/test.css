@@ -40,13 +40,15 @@
     font-weight: 600;
     color: rgb(60, 114, 252);
 }
-.test-icons{
+
+.test-icons {
     display: flex;
     width: 60%;
     gap: 10px;
     justify-content: center;
 }
-.test-icons button{
+
+.test-icons button {
     border: none;
     outline: none;
     width: fit-content;
@@ -58,13 +60,20 @@
     background-color: #fff;
     border-radius: 50%;
 }
+
 @media screen and (max-width:768px) {
     .test_box_main {
+        justify-content: center;
         flex-wrap: wrap;
     }
+
+    .test-box {
+        width: 350px;
+    }
 }
+
 @media screen and (max-width:992px) {
-    .test-icons{
+    .test-icons {
         width: 100%;
     }
 }

@@ -5,7 +5,7 @@ const Stats = () => {
 
     return <>
         <div className='container-fluid mx-0 py-5' style={{ backgroundColor: "rgba(7, 18, 45, 0.98)" }}>
-            <div className='row d-flex justify-content-center align-items-center' style={{ minHeight: '50vh' }}>
+            <div className='row d-flex justify-content-center align-items-center' style={{ minHeight: '60vh' }}>
                 <div className='col-12'>
                     <div className='d-flex justify-content-center flex-wrap gap-4'>
                         <div className='stats_box'>

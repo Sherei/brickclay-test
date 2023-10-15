@@ -125,4 +125,22 @@
     .e_arrow_div {
         width: 90%;
     }
+    .e_heat::before {
+        width: 20%;
+        /* width: 0%; */
+    }
+    .e_heat::after{
+        width: 20%;
+        /* width: 0%; */
+    }
+}
+@media screen and (max-width:450px) {
+    .e_heat::before {
+        width: 10%;
+        /* width: 0%; */
+    }
+    .e_heat::after{
+        width: 10%;
+        /* width: 0%; */
+    }
 }
