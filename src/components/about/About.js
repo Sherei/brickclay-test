@@ -79,7 +79,7 @@ const About = () => {
                     </div>
                 </div>
             </div>
-            <div className='row py-5' style={{ backgroundColor: "rgb(242, 244, 248)" }}>
+            <div className='row py-5' style={{ backgroundColor: "rgb(242, 244, 248)" }} id='case'>
                 <div className='col-12 p-0 m-0'>
                     <center>
                         <p className='about_heading case_study_heading'>New Case Studies</p>

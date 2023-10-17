@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaPhoneSquareAlt, FaEnvelope, FaInstagram, FaLinkedin, FaTwitter,FaFacebook } from "react-icons/fa"
+import { FaPhoneSquareAlt, FaEnvelope, FaInstagram, FaLinkedin, FaTwitter, FaFacebook } from "react-icons/fa"
 import { ImLocation2 } from "react-icons/im"
 import { Link } from 'react-scroll'
 import "./footer.css"
@@ -30,18 +30,35 @@ const Footer = () => {
                     <p className='footer_heading fw-bolder fs-5'>EXPLORE</p>
                     <div className='footer_explore_detail'>
                         <div>
-                            <p>About</p>
-                            <p>Meet our Team</p>
-                            <p>Case studies</p>
-                            <p>Latest News</p>
-                            <p>Contact</p>
+                            <Link to='about'>
+                                <p>About</p>
+                            </Link>
+                            <Link to="/">
+                                <p>Meet our Team</p>
+                            </Link>
+                            <Link to='case'>
+                                <p>Case studies</p>
+                            </Link>
+                            <Link to='/'>
+                                <p>Latest News</p>
+                            </Link>
+                            <Link to='about'>
+                                <p>Contact</p>
+                            </Link>
                         </div>
                         <div>
-                            <p>Suppport</p>
-                            <p>Terms of use</p>
-                            <p>Privacy & Policy</p>
-                            <p>Latest News</p>
-                            <p>Contact</p>
+                            <Link to='/'>
+                                <p>Suppport</p>
+                            </Link>
+                            <Link to="/">
+                                <p>Terms of use</p>
+                            </Link>
+                            <Link to='/'>
+                                <p>Privacy & Policy</p>
+                            </Link>
+                            <Link to='/'>
+                                <p>Help</p>
+                            </Link>
                         </div>
                     </div>
                 </div>
@@ -58,12 +75,12 @@ const Footer = () => {
             </div>
             <div className='row footer_row2'>
                 <div className='col-12 d-flex align-items-center justify-content-between'>
-                        <p className='mt-3' style={{color:"rgba(143, 141, 160, 1)"}}>@ Copyright 2022 by Brickclay</p>
+                    <p className='mt-3' style={{ color: "rgba(143, 141, 160, 1)" }}>@ Copyright 2022 by Brickclay</p>
                     <div className='footer_icon'>
-                        <div><FaInstagram/></div>
-                        <div><FaLinkedin/></div>
-                        <div><FaTwitter/></div>
-                        <div><FaFacebook/></div>
+                        <div><FaInstagram /></div>
+                        <div><FaLinkedin /></div>
+                        <div><FaTwitter /></div>
+                        <div><FaFacebook /></div>
                     </div>
                 </div>
             </div>

@@ -11,16 +11,17 @@
     margin: 50px 0px 0px 150px;
 
 }
-.hero_detail{
-    width: fit-content;
+.hero_detail {
+    width: 280px;
     color: #FFFF;
     font-size: 36px;
     font-weight: 700;
-    word-break: break-all;
+    word-wrap: break-word;
     letter-spacing: 1.8px;
     line-height: 50px;
     margin: 0px 0px 0px 150px;
 }
+
 .hero_btn{
     text-transform: uppercase;
     color: #FFFF;
