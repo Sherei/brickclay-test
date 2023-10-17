@@ -208,6 +208,7 @@
     font-weight: 700;
     margin-top: -10px;
 }
+
 @media screen and (max-width:768px) {
     .about_btn {
         display: none;
@@ -216,7 +217,7 @@
         top: -40px;
     }
     .case_study_heading {
-        margin-top: 330px !important;
+        margin-top: 340px !important;
     }    
     .case_study_box{
         margin-bottom: 15px;
