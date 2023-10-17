@@ -10,6 +10,9 @@ import Stats from "./components/stat/Stats";
 import Footer from "./components/footer/Footer";
 import Testimonial from "./components/testimonial/Testimonial";
 import Service from "./components/service/Service";
+import { ToastContainer } from 'react-toastify';
+
+import 'react-toastify/dist/ReactToastify.css';
 
 function App() {
   const [showTopButton, setShowTopButton] = useState(false);
@@ -48,7 +51,9 @@ function App() {
         <Stats />
         <Service />
         <Footer />
+        <ToastContainer />
       </div>
+
     </>
   );
 }

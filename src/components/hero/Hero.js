@@ -10,8 +10,8 @@ const Hero = () => {
 
   const data = [
     { title: "welcome to codeshaper", detail: "consulting for every buiseness growth" },
-    { title: "welcome to codeshaper", detail: "consulting for every buiseness developement" },
-    { title: "welcome to codeshaper", detail: "consulting for every software development" },
+    { title: "welcome to codeshaper", detail: "consulting for every buiseness" },
+    { title: "welcome to codeshaper", detail: "consulting for every software" },
     { title: "welcome to codeshaper", detail: "consulting for every marketing" },
   ]
 

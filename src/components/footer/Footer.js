@@ -1,11 +1,21 @@
 import React from 'react'
 import { FaPhoneSquareAlt, FaEnvelope, FaInstagram, FaLinkedin, FaTwitter, FaFacebook } from "react-icons/fa"
 import { ImLocation2 } from "react-icons/im"
+import { useForm } from 'react-hook-form';
 import { Link } from 'react-scroll'
 import "./footer.css"
+import { toast } from 'react-toastify';
 
 const Footer = () => {
 
+    let { register, handleSubmit, reset, formState: { errors }, } = useForm()
+
+    function News(data) {
+        console.log(data)
+        localStorage.setItem('email', data)
+        toast.success("Submitted")
+        reset()
+    }
     return <>
         <div className='container-fluid mx-0 px-0 py-5' style={{ backgroundColor: "rgb(15, 15,29)" }} >
             <div className='row footer_row ' style={{ minHeight: "60vh" }}>
@@ -67,8 +77,11 @@ const Footer = () => {
                     <div className='newsletter_box'>
                         <p>Subscribe for latest articles and resources</p>
                         <div style={{ position: 'relative' }}>
-                            <input type="text" placeholder='Email Address' className='newsletter_input' />
-                            <button className='newsletter_btn'>REGISTER</button>
+                            <form onSubmit={handleSubmit(News)}>
+                                <input type="email" placeholder='Email Address' className='newsletter_input' {...register('news', { required: true })} />
+                                <button className='newsletter_btn'>REGISTER</button>
+
+                            </form>
                         </div>
                     </div>
                 </div>
