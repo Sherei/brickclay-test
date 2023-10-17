@@ -4,7 +4,7 @@ import "./about.css"
 
 const About = () => {
     return <>
-        <div className='container-fluid mx-0  py-5 about_container'>
+        <div className='container-fluid mx-0 about_container' id='about'>
             <div className='row p-5' style={{ position: "relative", minHeight: "100vh" }}>
                 <img src="/Path 8.png" alt="No network" className='about_side_img' />
                 <img src="/Path 8.png" alt="No network" className='about_side_img2' />
@@ -55,7 +55,7 @@ const About = () => {
                 </div>
             </div>
 
-            <div className='row p-0 m-0' style={{ minHeight: "100vh", position: "relative" }} >
+            <div className='row p-0 m-0' style={{ position: "relative" }} >
                 <div className='col-12 about_box_main'>
                     <div className='about_box'>
                         <button className='about_box_btn'>
@@ -78,7 +78,9 @@ const About = () => {
                         </div>
                     </div>
                 </div>
-                <div className='col-12 p-0 m-0' style={{ backgroundColor: "rgb(242, 244, 248)" }}>
+            </div>
+            <div className='row py-5' style={{ backgroundColor: "rgb(242, 244, 248)" }}>
+                <div className='col-12 p-0 m-0'>
                     <center>
                         <p className='about_heading case_study_heading'>New Case Studies</p>
                         <p className='about_detail1 case_study_detail'>We help our clients renew their business </p>

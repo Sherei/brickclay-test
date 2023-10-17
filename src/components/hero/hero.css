@@ -33,6 +33,12 @@
     border-radius: 0px;
     margin: 30px 0px 0px 150px;
 }
+.hero_btn:hover{
+    color: #FFFF;
+    background-color: rgba(60, 114, 252, 0.9);
+    box-shadow: 0px 0px 7px rgb(60, 114, 252);
+
+}
 @media screen and (max-width:768px) {
     .hero_welcome,.hero_detail, .hero_btn{
         margin-left: 40px;

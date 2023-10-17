@@ -3,9 +3,9 @@ import { FaCheck } from "react-icons/fa"
 import "./faq.css"
 const Faq = () => {
     return <>
-        <div className='container-fluid mx-0 py-5'>
-            <div className='row'>
-                <div className='col-12 d-flex flex-column justify-content-center align-items-center' style={{ minHeight: "60vh", background: "rgb(75,74,86)" }}>
+        <div className='container-fluid mx-0 border' id='faq'>
+            <div className='row py-5' style={{ background: "rgb(75,74,86)" }}>
+                <div className='col-12 d-flex flex-column justify-content-center align-items-center'>
                     <p className='text-center faq_head1'>
                         MISSION IS TO PROTECT <br />
                         YOUR BUSINESSES & <br />
@@ -15,8 +15,11 @@ const Faq = () => {
                         Discover more
                     </button>
                 </div>
+            </div>
 
-                <div className='col-12 mt-5'>
+
+            <div className='row py-5'>
+                <div className='col-12'>
                     <p className='faq_head2'>Questions Answers</p>
                     <p className='faq_head_detail'>We help our clients renew their business</p>
                 </div>

@@ -6,13 +6,34 @@
     box-sizing: border-box;
   }
 
-  *, h1,h2,h3,h4,h5,h6,p,span,button, ::placeholder {
+  * {
     font-family: 'Jost', sans-serif !important;
+    scroll-behavior: smooth;
   }
   a {
     text-decoration: none !important;
   } 
+  .top_btn{
+    position: absolute;
+    position: fixed;
+    bottom: 40px;
+    right: 30px;
+    background-color:rgba(45, 149, 253, 1) ;
+    color:rgba(235, 241, 255, 1) ;
+    font-size: 25px;
+    z-index: 1000;
+    height: 40px ;
+    width: 40px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
+  }
+  .top_btn:hover,  .top_btn:focus{
+    background-color:rgba(45, 149, 253, 1) ;
+    color:rgba(235, 241, 255, 1) ;
+    
+  }
   @media screen and (max-width:992px) {
     .container-fluid{
       padding-left:10px !important;
