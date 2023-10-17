@@ -25,7 +25,7 @@ const Hero = () => {
       <div className='row pb-5'>
         <div className='col-lg-12 col-md-12 col-sm-12 text-uppercase'>
           <Swiper
-            autoplay={{ delay: 3000 }}
+            autoplay={{ delay: 4000 }}
             pagination={false}
             modules={[Pagination, Autoplay]}
             className="mySwiper">
