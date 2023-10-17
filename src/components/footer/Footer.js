@@ -11,8 +11,7 @@ const Footer = () => {
     let { register, handleSubmit, reset, formState: { errors }, } = useForm()
 
     function News(data) {
-        console.log(data)
-        localStorage.setItem('email', data)
+        localStorage.setItem('email', data.email)
         toast.success("Submitted")
         reset()
     }
