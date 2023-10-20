@@ -86,7 +86,7 @@ const Footer = () => {
                 </div>
             </div>
             <div className='row footer_row2'>
-                <div className='col-12 d-flex align-items-center justify-content-between'>
+                <div className='col-12 d-flex align-items-center justify-content-between flex-wrap'>
                     <p className='mt-3' style={{ color: "rgba(143, 141, 160, 1)" }}>@ Copyright 2022 by Brickclay</p>
                     <div className='footer_icon'>
                         <div><FaInstagram /></div>
