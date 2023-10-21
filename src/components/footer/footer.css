@@ -90,6 +90,11 @@
     font-size: 22px;
     color: #fff;
 }
+.footer_display{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
 
 @media screen and (max-width:768px) {
     .footer_row, .footer_row2 {
@@ -102,5 +107,9 @@
     }
     .newsletter_box{
         padding: 0px 15px;
+    }
+    .footer_display p{
+        text-align: center;
+
     }
 }
